@@ -2,7 +2,7 @@
 # Verilog HDL and RTL Design
 
 ## 1. Introduction
-
+  
 Verilog HDL (Hardware Description Language) is used to describe and design digital hardware circuits. During VLSI core training, I learned how to represent digital logic using Verilog code and how RTL (Register Transfer Level) describes the data flow and operations performed by a digital circuit.
 
 RTL design is an important stage in the VLSI design flow because the RTL code describes the intended hardware functionality before synthesis converts it into a gate-level representation.
