@@ -1,6 +1,6 @@
 
 # RTL Synthesis and Technology Mapping
-
+ 
 ## 1. What I Learned About RTL Synthesis
 
 I learned that RTL (Register Transfer Level) synthesis is the process of converting Verilog RTL code into a hardware representation that can be implemented using logic gates, flip-flops, and other hardware cells.
