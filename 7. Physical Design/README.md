@@ -41,6 +41,8 @@ I understood that these components work together to implement the required digit
 
 I learned that floorplanning is the first major stage of physical implementation after synthesis. It establishes the initial physical organization of the chip and determines how much space is available for cells, macros, and routing.
 
+<img width="1288" height="770" alt="image" src="https://github.com/user-attachments/assets/9d45125c-0f06-4246-9614-b970548904c5" />
+
 ### Main Activities
 
 1. **Define the Die Area:** Determine the overall area available for the chip.
@@ -90,6 +92,8 @@ I learned that power planning creates the power-distribution network that delive
 
 Standard cells require a reliable power supply to operate correctly. As cells switch, they draw current through the power network.
 
+
+
 ### Main Activities
 
 1. **Power and Ground Network Design:** Establish connections for the supply voltage and ground.
@@ -122,6 +126,9 @@ A robust power network helps supply the required voltage to cells across the chi
 I learned that placement determines the physical locations of standard cells inside the core.
 
 The placement tool uses the synthesized netlist, timing constraints, floorplan, and cell-library information to arrange the cells.
+
+<img width="1912" height="1007" alt="image" src="https://github.com/user-attachments/assets/7c2965d9-e4d3-44ec-badd-22651628a220" />
+
 
 ### Main Activities
 
@@ -157,6 +164,7 @@ I learned that Clock Tree Synthesis creates a clock-distribution network that de
 
 A clock signal must reach many registers across the chip with controlled timing differences.
 
+<img width="1917" height="1092" alt="image" src="https://github.com/user-attachments/assets/72d19a5b-9703-4bde-846d-4eccf29d4e20" />
 ### Main Activities
 
 1. **Clock Endpoint Identification:** Identify the sequential elements that need the clock.
@@ -200,6 +208,8 @@ After placement, the locations of the cells are known, but the required electric
 Global routing estimates the paths of nets and allocates routing resources.
 
 It helps identify congestion and determines approximate routes before detailed implementation.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e97ecc5e-fb69-4ad8-b972-f0158ec7eb13" />
+
 
 ### Detailed Routing
 
@@ -226,6 +236,8 @@ Routing affects signal delay, power consumption, signal integrity, and the abili
 I learned that Static Timing Analysis checks whether a digital circuit meets its timing requirements without requiring simulation input vectors.
 
 STA evaluates timing paths using cell timing information, interconnect delays, clock information, and timing constraints.
+
+<img width="1917" height="1163" alt="image" src="https://github.com/user-attachments/assets/131e2720-11b0-42cf-a5d9-eb7bc1f59817" />
 
 ### Main Activities
 
