@@ -66,10 +66,11 @@ I learned that the `stat` command displays information about the synthesized des
 ```tcl
 write_verilog synthesized_netlist.v
 ```
+<img width="720" height="1080" alt="yosys" src="https://github.com/user-attachments/assets/98952223-f3c7-44fa-8e21-28d528fefd6e" />
+
 
 I learned that the `write_verilog` command writes the current design representation to a Verilog file.
 
-*Note: `good_mux.v` and `good_mux` are example names. I need to replace them with the actual file and module names used in my design.*
 
 ## 3. What I Learned About the Top Module
 
@@ -284,11 +285,15 @@ I learned the difference between pre-synthesis and post-synthesis representation
 - Functional simulation can be used to check the intended behavior.
 - The code describes the required digital functionality.
 
+<img width="3840" height="2160" alt="pre" src="https://github.com/user-attachments/assets/89e7f996-5ad8-49f5-aaaa-5fc73a5dddf8" />
+
 ### Post-Synthesis
 
 - The synthesis tool generates a netlist.
 - The netlist represents the synthesized hardware.
 - The design can be checked through further verification.
+
+<img width="1600" height="847" alt="post" src="https://github.com/user-attachments/assets/f8051bf1-4a78-4855-838c-a0ba1173e143" />
 
 I understood that synthesis is a transformation of the design, not a replacement for verification.
 
