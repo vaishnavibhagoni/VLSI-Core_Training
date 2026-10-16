@@ -31,6 +31,8 @@ RTL stands for Register Transfer Level. It describes how data moves between regi
 
 RTL code can describe both combinational logic and sequential logic. The code is later processed by synthesis tools to infer the hardware required to implement the design.
 
+<img width="1164" height="882" alt="testbench" src="https://github.com/user-attachments/assets/4c50a09a-3c57-4d2c-88a0-828de890baa0" />
+
 ### What I Learned
 - How to write RTL code using Verilog.
 - How to divide a design into modules.
@@ -110,6 +112,8 @@ A testbench is a Verilog module written to verify another module. It usually ins
 
 Unlike synthesizable RTL, a testbench is generally used for verification and is not itself intended to become part of the final hardware.
 
+<img width="1060" height="840" alt="test_goodmux" src="https://github.com/user-attachments/assets/1c0088dd-bece-415b-ba49-0774d5efbb8d" />
+
 ### What I Learned
 - How to declare testbench signals.
 - How to instantiate the design under test.
@@ -125,6 +129,8 @@ For a sequential circuit, the testbench must account for clock edges, reset beha
 Icarus Verilog is a tool used to compile and simulate Verilog designs.
 
 The compiler processes the design and testbench files to create a simulation executable. Running that executable allows the testbench to apply inputs and execute the simulation.
+
+<img width="1910" height="916" alt="waveform" src="https://github.com/user-attachments/assets/15164d83-ea61-40ef-8fb6-dd0d1ee12604" />
 
 ### Typical Workflow
 
