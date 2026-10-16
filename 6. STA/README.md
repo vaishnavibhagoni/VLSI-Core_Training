@@ -1,4 +1,4 @@
-
+ 
 # Static Timing Analysis (STA)
 
 ## 1. What I Learned About Static Timing Analysis
