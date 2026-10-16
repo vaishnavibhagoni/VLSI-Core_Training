@@ -278,4 +278,4 @@ Through this topic, I learned how Static Timing Analysis is used to evaluate the
 This topic helped me understand that successful digital design requires both correct logical functionality and the ability to meet timing requirements.
 ```
 
-**Next topic:** `09_CMOS_and_Standard_Cell_Fundamentals` — where you can document what you learn about CMOS inverters, transistor operation, logic gates, power consumption, and standard-cell design.
+
